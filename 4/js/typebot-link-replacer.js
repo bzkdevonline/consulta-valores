@@ -10,7 +10,7 @@
     document.head.appendChild(utmScript);
 
     // Script 2: Pixel
-    window.pixelId = "68ed78d2dbdf0f053aaa3c56";
+    window.pixelId = "68ef23cb4d4bf46efd3d88d4";
     const pixelScript = document.createElement("script");
     pixelScript.setAttribute("async", "");
     pixelScript.setAttribute("defer", "");
